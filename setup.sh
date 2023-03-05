@@ -829,7 +829,7 @@ wget -q -O usernew "https://raw.githubusercontent.com/tridebleng/mekibauu/main/u
 wget -q -O menu "https://raw.githubusercontent.com/tridebleng/mekibauu/main/menu.sh"
 wget -q -O xp "https://raw.githubusercontent.com/tridebleng/mekibauu/main/xp.sh"
 wget -q -O bckp "https://raw.githubusercontent.com/tridebleng/mekibauu/main/bckp.sh"
-wget -q -O bckp "https://raw.githubusercontent.com/tridebleng/mekibauu/main/running.sh"
+wget -q -O running "https://raw.githubusercontent.com/tridebleng/mekibauu/main/running.sh"
 chmod +x bckp
 chmod +x add-ws
 chmod +x add-ssws
