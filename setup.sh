@@ -829,6 +829,7 @@ wget -q -O usernew "https://raw.githubusercontent.com/tridebleng/mekibauu/main/u
 wget -q -O menu "https://raw.githubusercontent.com/tridebleng/mekibauu/main/menu.sh"
 wget -q -O xp "https://raw.githubusercontent.com/tridebleng/mekibauu/main/xp.sh"
 wget -q -O bckp "https://raw.githubusercontent.com/tridebleng/mekibauu/main/bckp.sh"
+wget -q -O bckp "https://raw.githubusercontent.com/tridebleng/mekibauu/main/run.sh"
 chmod +x bckp
 chmod +x add-ws
 chmod +x add-ssws
@@ -846,6 +847,7 @@ chmod +x menu-ssh
 chmod +x menu-bckp
 chmod +x menu
 chmod +x xp
+chmod +x run
 cd
 cat > /etc/cron.d/re_otm <<-END
 SHELL=/bin/sh
