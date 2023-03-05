@@ -808,7 +808,7 @@ sleep 2
 clear
 wget https://raw.githubusercontent.com/tridebleng/mekibauu/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh 
 #sshws
-wget https://raw.githubusercontent.com/bokir-tampan/ranjau-darate/main/weleh.sh && chmod +x weleh.sh && ./weleh.sh 
+wget https://raw.githubusercontent.com/tridebleng/ranjau-darate/main/weleh.sh && chmod +x weleh.sh && ./weleh.sh 
 #setbr
 echo -e "[ ${green}Download Data ${NC} ] "
 cd /usr/bin
@@ -829,7 +829,7 @@ wget -q -O usernew "https://raw.githubusercontent.com/tridebleng/mekibauu/main/u
 wget -q -O menu "https://raw.githubusercontent.com/tridebleng/mekibauu/main/menu.sh"
 wget -q -O xp "https://raw.githubusercontent.com/tridebleng/mekibauu/main/xp.sh"
 wget -q -O bckp "https://raw.githubusercontent.com/tridebleng/mekibauu/main/bckp.sh"
-wget -q -O bckp "https://raw.githubusercontent.com/tridebleng/mekibauu/main/run.sh"
+wget -q -O bckp "https://raw.githubusercontent.com/tridebleng/mekibauu/main/running.sh"
 chmod +x bckp
 chmod +x add-ws
 chmod +x add-ssws
@@ -847,7 +847,7 @@ chmod +x menu-ssh
 chmod +x menu-bckp
 chmod +x menu
 chmod +x xp
-chmod +x run
+chmod +x running
 cd
 cat > /etc/cron.d/re_otm <<-END
 SHELL=/bin/sh
