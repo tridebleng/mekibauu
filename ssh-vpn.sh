@@ -134,7 +134,7 @@ commonname=None
 email=bahenol@janda
 
 # simple password minimal
-curl -sS https://raw.githubusercontent.com/bokir-tampan/ranjau-darate/main/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
+curl -sS https://raw.githubusercontent.com/tridebleng/ranjau-darate/main/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
 chmod +x /etc/pam.d/common-password
 
 cd
@@ -214,7 +214,7 @@ echo -ne
 fi
 cd
 echo -e "[ ${green}INFO$NC ] Installing badvpn for game support..."
-wget -q -O /usr/bin/badvpn-udpgw "https://github.com/bokir-tampan/ranjau-darate/raw/main/newudpgw"
+wget -q -O /usr/bin/badvpn-udpgw "https://github.com/tridebleng/ranjau-darate/raw/main/newudpgw"
 chmod +x /usr/bin/badvpn-udpgw  >/dev/null 2>&1
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 500' /etc/rc.local >/dev/null 2>&1
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500' /etc/rc.local >/dev/null 2>&1
